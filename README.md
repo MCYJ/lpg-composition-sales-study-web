@@ -4,4 +4,4 @@ Dedicated Japanese/English static website for glb-3010. App UI, questions and ex
 
 Local verification (2026-10-29):18 localized pages,10 authored guide topics per language,26 exact HTTP files,36 actual Chrome layout checks at320/768px and8 interactive example selections. Two representative screens were visually reviewed; not all36 screenshots. The original Japanese overflow found after browser auto-translation was disabled has been fixed.
 
-The notebook is a validation candidate. Native screenshots, authenticated remote/production checks and full marketing completion remain pending. No store purchase links or release claim. Web examples are not app screenshots or real equipment settings.
+The notebook is a validation candidate. Source85302248c04a75b7d128165b41fe482d70178794 is live at https://mcyj.github.io/lpg-composition-sales-study-web/ja/ with32 authenticated remote source blobs,26 exact HTTPS file bytes, a matching custom404 and36 actual production browser layout checks plus8 selections. Native screenshots and full marketing completion remain pending. No store purchase links or release claim. Web examples are not app screenshots or real equipment settings.
