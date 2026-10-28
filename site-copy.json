@@ -1,0 +1,74 @@
+{
+  "guideTopics": [
+    {
+      "id": "fractions",
+      "jaTitle": "割合の基準を選ぶ",
+      "jaBody": "モル割合は成分のmol÷合計mol、質量割合は成分質量÷合計質量です。入力前に基準を選びます。基準の切り替えは同じ数値を新しい基準で解釈する操作で、自動換算ではありません。",
+      "enTitle": "Choose the fraction basis",
+      "enBody": "Mole fraction divides constituent mol by total mol; mass fraction divides constituent mass by total mass. Choose the basis before applying the input. Switching the basis reinterprets the same number rather than automatically converting the case."
+    },
+    {
+      "id": "components",
+      "jaTitle": "二つの成分を区別する",
+      "jaBody": "模型はC3H8とC4H10だけを含みます。入力したプロパン割合の残りをブタンとし、他の成分は扱いません。実際の製品を測定したり、液相と気相の組成が同じだと判定したりする機能ではありません。",
+      "enTitle": "Distinguish the two components",
+      "enBody": "The model contains C3H8 and C4H10 only. The balance of the propane fraction is butane. It neither measures a real product nor determines liquid and gas compositions. Other constituents and phase equilibrium are outside its scope."
+    },
+    {
+      "id": "masses",
+      "jaTitle": "近似モル質量を明示する",
+      "jaBody": "教育用の固定値44g/molと58g/molを使います。質量割合wからモル割合xへの換算は(w/44)/(w/44+(1-w)/58)です。これらは精密な物性測定値ではありません。",
+      "enTitle": "Declare the teaching masses",
+      "enBody": "Fixed teaching constants44g/mol and58g/mol give x=(w/44)/(w/44+(1-w)/58) from mass fraction w. These are declared educational approximations rather than precise measured material properties."
+    },
+    {
+      "id": "equations",
+      "jaTitle": "反応式の係数を読む",
+      "jaBody": "C3H8+5O2→3CO2+4H2Oと2C4H10+13O2→8CO2+10H2Oを仮定します。各成分のmolに係数を掛けて合計します。理論上の係数は、バーナーや空気供給の設定値ではありません。",
+      "enTitle": "Read the equation coefficients",
+      "enBody": "Assume C3H8+5O2→3CO2+4H2O and2C4H10+13O2→8CO2+10H2O. Multiply each constituent amount by its coefficient and add. Theoretical equation quantities are not burner or air-supply settings and do not predict actual complete combustion."
+    },
+    {
+      "id": "atoms",
+      "jaTitle": "元素の収支を照合する",
+      "jaBody": "反応前後のC・H・O原子の物質量を照合します。1molのH2Oは水分子の量であり、H原子2molとO原子1molを含みます。表示した水のmolを、そのまま気体体積や凝縮水の体積に置き換えないでください。",
+      "enTitle": "Check the atom ledger",
+      "enBody": "Compare before-and-after C, H and O atom amounts. One mol H2O refers to molecules and corresponds to2mol H atoms and1mol O atoms. The water amount must not be directly read as gas volume or condensed-water volume."
+    },
+    {
+      "id": "mole-example",
+      "jaTitle": "50mol%の2molを読む",
+      "jaBody": "独自例はプロパン1molとブタン1molです。O2は11.5mol、CO2は7mol、H2Oは9molになります。模型質量は44gと58gなので、プロパン質量割合は44/102、約43.14%です。",
+      "enTitle": "Read a2mol equal-mole example",
+      "enBody": "The authored case has1mol of each component. It gives11.5mol O2,7mol CO2 and9mol H2O. Teaching masses44g and58g make propane mass fraction44/102, about43.14%, rather than50%."
+    },
+    {
+      "id": "mass-example",
+      "jaTitle": "50質量%との違いを見る",
+      "jaBody": "別の1mol独自例は50質量%のプロパンです。モル割合は29/51、約56.86%、1mol当たりO2は約5.647molです。50mol%の5.750molと区別し、成分比を実際の燃料の優劣として解釈しません。",
+      "enTitle": "Compare the equal-mass example",
+      "enBody": "A separate1mol case uses50mass% propane. Its mole fraction is29/51, about56.86%, and O2 per mixture mol is about5.647mol, compared with5.750mol at50mole%. This is not a rating of real fuels."
+    },
+    {
+      "id": "normalization",
+      "jaTitle": "1mol基準で比較する",
+      "jaBody": "A/Bの合計molが違うときは、合計O2の差だけでは組成と試料サイズを区別できません。合計と1mol当たりの値を別々に示します。B-Aの正負は数量の差で、性能・安全性・適否を判定しません。",
+      "enTitle": "Compare on a1mol basis",
+      "enBody": "When A and B have different sample sizes, total O2 alone mixes size and composition effects. Inspect total and normalized values separately. The sign of B-A is a quantity difference, not a performance, safety or suitability judgment."
+    },
+    {
+      "id": "notebook",
+      "jaTitle": "現在ケースとA/Bを分ける",
+      "jaBody": "適用操作は現在ケースを保存します。A/Bは各保存ボタンで独立して更新し、未適用の入力は図に使いません。読み込みは保存した条件を現在ケースへ戻します。端末内保存で、アカウント同期や運営者の復旧機能はありません。",
+      "enTitle": "Keep active and saved cases independent",
+      "enBody": "Applying conditions saves the active case. A and B update only through their own save actions. Unapplied edits do not change diagram results. Loading restores saved conditions as active. Device-local records have no account synchronization or operator recovery."
+    },
+    {
+      "id": "scope",
+      "jaTitle": "模型の外にあることを確認する",
+      "jaBody": "気液平衡・容器挙動・空気設定・過剰空気・流量・発熱量・CO/排出・換気・現場施工・法令適合・公式採点は扱いません。公式試験の全範囲や合格を保証せず、試験情報は公式案内で確認します。",
+      "enTitle": "Identify the model limits",
+      "enBody": "The notebook excludes phase equilibrium, cylinders, air settings, excess air, flow, heat, CO/emissions, ventilation, installation, legal compliance and official scoring. It does not promise complete exam coverage or passing. Check official notices for exam information."
+    }
+  ]
+}

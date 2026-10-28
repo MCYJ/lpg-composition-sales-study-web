@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mcyj.github.io/lpg-composition-sales-study-web/sitemap.xml
