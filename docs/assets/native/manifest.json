@@ -1,0 +1,183 @@
+{
+  "serviceId": "glb-3010",
+  "nativeBuild": 9,
+  "nativeVersion": "0.1.0",
+  "actualAppAndQuestionLanguage": "ja",
+  "captureEnvironment": "iPhone17 ProMax and iPadPro13M5 simulators, iOS26.5",
+  "screenshots": [
+    {
+      "file": "phone9-01-composition-model.png",
+      "device": "phone",
+      "sequence": 1,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "4f5298af2fee762cae16cc28a84eaca73c13e3165a8cc33dc8bc05b55ea3a7e0",
+      "captions": {
+        "ja": "モル割合と質量割合を区別する組成モデル",
+        "en": "Composition model with mole and mass fractions"
+      }
+    },
+    {
+      "file": "phone9-02-independent-ab-comparison.png",
+      "device": "phone",
+      "sequence": 2,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "f371442db1babbbf2b8fade6ba3cdb1be0416e7fdd6b1ca79e875c0c57706511",
+      "captions": {
+        "ja": "独立して保存したA/Bの比較",
+        "en": "Comparison of independently saved A/B cases"
+      }
+    },
+    {
+      "file": "phone9-03-question.png",
+      "device": "phone",
+      "sequence": 3,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "afc03a963489242329961cc5220fe3731ace74d9d5d4cc14cf9fe96980bea511",
+      "captions": {
+        "ja": "収録された日本語の練習問題",
+        "en": "An included Japanese practice question"
+      }
+    },
+    {
+      "file": "phone9-04-answer-explanation.png",
+      "device": "phone",
+      "sequence": 4,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "3fd0acc28a686d9c9acc594803c6696d532d4567be6e257f703f2ff83f78cc4b",
+      "captions": {
+        "ja": "選んだ答えと解説・学習図",
+        "en": "Answer explanation and learning diagram"
+      }
+    },
+    {
+      "file": "phone9-05-progress-after-cold-restart.png",
+      "device": "phone",
+      "sequence": 5,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "43f19fd2f093e237c81ea44c6b92427dd29540ae8313557d0c32ab24ae9ed66d",
+      "captions": {
+        "ja": "再起動後の学習記録",
+        "en": "Study progress after reopening the app"
+      }
+    },
+    {
+      "file": "phone9-06-bookmarks-and-review.png",
+      "device": "phone",
+      "sequence": 6,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "93d83b9e6b8ba972def3e2f61eeab8532b48fb3f556aebc9a5d0237d3d3f815a",
+      "captions": {
+        "ja": "保存した問題と誤答の復習",
+        "en": "Saved and missed question review"
+      }
+    },
+    {
+      "file": "phone9-07-concept-diagram.png",
+      "device": "phone",
+      "sequence": 7,
+      "width": 1320,
+      "height": 2868,
+      "sha256": "4517a0d2b778c3607b4cef6ea41fdddbae8c92f0048dea03dbc439f3d2a4e0f3",
+      "captions": {
+        "ja": "観察・理由・整理を結ぶ概念図",
+        "en": "Concept diagram linking observations and reasons"
+      }
+    },
+    {
+      "file": "ipad9-01-composition-model.png",
+      "device": "ipad",
+      "sequence": 1,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "19ac664562ad49aa4c7bcec85a301018dc6c7a59bf530e752d7ba0bab5bf41d7",
+      "captions": {
+        "ja": "モル割合と質量割合を区別する組成モデル",
+        "en": "Composition model with mole and mass fractions"
+      }
+    },
+    {
+      "file": "ipad9-02-independent-ab-comparison.png",
+      "device": "ipad",
+      "sequence": 2,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "cfb60f9253a7f57276fb134bdcf7c5807b5a3d465c633cc6ffd3989f196adcee",
+      "captions": {
+        "ja": "独立して保存したA/Bの比較",
+        "en": "Comparison of independently saved A/B cases"
+      }
+    },
+    {
+      "file": "ipad9-03-question.png",
+      "device": "ipad",
+      "sequence": 3,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "1f36cd5258556669cd64126012da8bfaec6f80deafadc82a12c41b50a60de50b",
+      "captions": {
+        "ja": "収録された日本語の練習問題",
+        "en": "An included Japanese practice question"
+      }
+    },
+    {
+      "file": "ipad9-04-answer-explanation.png",
+      "device": "ipad",
+      "sequence": 4,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "ba27ea84e806f82f847f7cb8932ca28bfb0ec41a83c45bda13b3e894e37e0dde",
+      "captions": {
+        "ja": "選んだ答えと解説・学習図",
+        "en": "Answer explanation and learning diagram"
+      }
+    },
+    {
+      "file": "ipad9-05-progress-after-cold-restart.png",
+      "device": "ipad",
+      "sequence": 5,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "8c0c25eec3e61f7dec68b5e92a44c8ef8271acba1bee172e32154eaf11bef0ff",
+      "captions": {
+        "ja": "再起動後の学習記録",
+        "en": "Study progress after reopening the app"
+      }
+    },
+    {
+      "file": "ipad9-06-bookmarks-and-review.png",
+      "device": "ipad",
+      "sequence": 6,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "129f2c483558fe3642d1cf6efca46eacea0f0ec9fb7f86a0e828019badf3748d",
+      "captions": {
+        "ja": "保存した問題と誤答の復習",
+        "en": "Saved and missed question review"
+      }
+    },
+    {
+      "file": "ipad9-07-concept-diagram.png",
+      "device": "ipad",
+      "sequence": 7,
+      "width": 2064,
+      "height": 2752,
+      "sha256": "859b099d4181a272ff4d4967c62622780c5f14711e75df8eb60c4dd46876bdf8",
+      "captions": {
+        "ja": "観察・理由・整理を結ぶ概念図",
+        "en": "Concept diagram linking observations and reasons"
+      }
+    }
+  ],
+  "screenshotsUnmodifiedFromNativeCapture": true,
+  "sourceScreensPreviouslyDirectlyReviewed": 14,
+  "simulatorCoreAndCompositionWorkflowVerified": true,
+  "physicalDeviceVerificationComplete": false,
+  "notification9VerificationComplete": false,
+  "appStoreReleaseOrReviewApprovalConfirmed": false
+}

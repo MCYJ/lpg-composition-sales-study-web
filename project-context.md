@@ -7,3 +7,10 @@ Service: glb-3010. One-app static GitHub Pages project. Japanese and English web
 
 ## 2026-10-29 production verification
 Public MCYJ/lpg-composition-sales-study-web, Pages main/docs, HTTPS enforced, source85302248c04a75b7d128165b41fe482d70178794. All32 remote blobs and26 HTTPS file bytes match; custom404 matches. Actual production Chrome36 checks at320/768px and8 select changes passed. App and bank remain JA; candidate notebook status stays explicit. Native app screenshots0, full marketing completion false, Store writes0. Local preview stopped and browser viewport reset. This documentation follow-up does not change any docs/ production file.
+
+
+## 2026-10-29 native9 gallery implementation
+The current0.1.0(9) iPhone/iPad simulator composition and core checks passed. Added14 exact native captures with SHA provenance and Japanese/English captions. Home previews show2 phone frames; the features page includes7 phone frames and an expandable7-frame iPad gallery. Actual UI and bank remain Japanese. Physical-device/notification9 verification and release/review approval remain incomplete; no purchase link or approval claim was added. This entry records implementation only; local browser and production verification follow.
+
+## 2026-10-29 native9 local validation
+All41 served files match local bytes. Actual Chrome18 pages at320/768px gave36 passing layout/language/link checks,14 native images loaded after expanding iPad screenshots, and8 real concept-example changes preserved their expected values. Two representative rendered views were inspected. The first English screenshot preceded lazy-image paint and is not accepted as visual proof; its ready-state replacement was inspected. Explicit UTF8 source encoding fixes a direct Python3.9 invocation failure; decoded-source compilation had passed. No product source, icon, private bank, Store metadata, pricing or existing review was changed by this website maintenance. Production deploy/readback remains the next step.
